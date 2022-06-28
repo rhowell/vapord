@@ -1,8 +1,8 @@
-# vapord
-// TODO(user): Add simple overview of use/purpose
+# VaPoRD
+Vault Policy Resource Definitions
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+Vapord allows a user to define HashiCorp vault policies as Kubernetes CRDs.  This allows dev or security teams to define, as code, what Vault resources they require access to.
 
 ## Getting Started
 You’ll need a Kubernetes cluster to run against. You can use [KIND](https://sigs.k8s.io/kind) to get a local cluster for testing, or run against a remote cluster.
