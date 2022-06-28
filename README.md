@@ -2,7 +2,7 @@
 Vault Policy Resource Definitions
 
 ## Description
-Vapord allows a user to define HashiCorp vault policies as Kubernetes CRDs.  This allows dev or security teams to define, as code, what Vault resources they require access to.
+Vapord allows a user to define HashiCorp Vault policies as Kubernetes CRDs.  
 
 ## Getting Started
 You’ll need a Kubernetes cluster to run against. You can use [KIND](https://sigs.k8s.io/kind) to get a local cluster for testing, or run against a remote cluster.
