@@ -1,0 +1,11 @@
+name: On Push Actions
+on: [push]
+jobs:
+  containers:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - run:
+          make docker-build
+      - if: github.ref == 'refs/head/main'
+        run: make docker-push
